@@ -1,4 +1,4 @@
-img#backimg{ 
+img#backimg {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -12,6 +12,5 @@ img#backimg{
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     background: url(C:\Users\TheGamingComputer\Dropbox\CODE\The_Plays_Site\backvid.mp4) no-repeat;
-    background-size: cover; 
+    background-size: cover;
 }
-
