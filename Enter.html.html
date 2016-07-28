@@ -11,9 +11,16 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
 
 
 <link rel="stylesheet" type="text/css" href="Enter.css.css">
+<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="HP.js">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 <head>
@@ -22,25 +29,68 @@
 
 <body>
 
-    <img id="backimg" src="http://i.imgur.com/QkOcU3m.jpg">
+
+
+
+
+    <!-- <img id="backimg" src="http://i.imgur.com/QkOcU3m.jpg"> -->
 
     <div id="top">
+        <!-- <h1 id="thePlays">WELCOME</h1> -->
+        <div class="container-fluid">
+            <div id="myTypingText"></div>
+        </div>
+        <script>
+            var myString = "WELCOME ACES";
+            var myArray = myString.split("");
+            var loopTimer;
 
-        <h1>THE PLAYS</h1>
+            function frameLooper() {
+                if (myArray.length > 0) {
+                    document.getElementById("myTypingText").innerHTML += myArray.shift();
+                } else {
+                    clearTimeout(loopTimer);
+                    return false;
+                }
+                loopTimer = setTimeout('frameLooper()', 70);
+            }
+            frameLooper();
+        </script>
+        <div class="spinn">
 
-        <nav class="menu">
+            <img class="App-logo" src="http://ripplemedia.net.au/images/Myself-circle-outside.png" alt="Yikes">
+            <a href="index.html.html">
+                <img class="spade" src="http://i.imgur.com/JzhYKMs.png" alt="Yikes">
+            </a>
+        </div>
+        <div class="container">
 
-            <ul>
-                <li>About</li>
-                <li>Contact</li>
-                <li>Subscribe</li>
-                <li>Our Mission</li>
-            </ul>
+            <div class="row">
+                <a href="#">
+                    <div id="bar" class="col-lg-3 col-md-3 col-sm-3 col-xs-6">Subscribe</div>
+                </a>
+                <a href="#">
+                    <div id="bar" class="col-lg-3 col-md-3 col-sm-3 col-xs-6">About</div>
+                </a>
+                <a href="#">
+                    <div id="bar" class="col-lg-3 col-md-3 col-sm-3 col-xs-6">Contact</div>
+                </a>
+                <a href="#">
+                    <div id="bar" class="col-lg-3 col-md-3 col-sm-3 col-xs-6">Our Mission</div>
+                </a>
+
+            </div>
+        </div>
 
 
-        </nav>
+
+
 
     </div>
+    <!-- <div class="container">
+
+        <img id="mine" src="http://i.imgur.com/dtO9pRM.png" alt="Yikes" />
+    </div> -->
 
 </body>
 
