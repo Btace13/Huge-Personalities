@@ -16,6 +16,9 @@ video#bgvid {
     background-size: cover;
 }*/
 
+html body {
+    background-color: black;
+}
 #backdrop {
     position: fixed;
     top: 50%;
@@ -38,8 +41,8 @@ video#bgvid {
     opacity: .9;
     font-family: 'Rock Salt', cursive;
     font-size: 6em;
-    color: #D90429;
-    text-shadow: 3px 10px 3px #2B2D42;
+    color: #1682A2;
+    text-shadow: 3px 10px 3px #Winter 00275A;
     text-align: center;
     /*margin-bottom: 250px*/
 }
@@ -60,7 +63,7 @@ a {
 .dabtn:hover {
     opacity: .7;
     background-color: #2B2D42;
-    color: #D90429;
+    color: #1682A2;
     border: 2px solid black;
     padding: 20px;
 }
