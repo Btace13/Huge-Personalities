@@ -369,3 +369,18 @@ li {
 .menu> li:hover .submenu li:nth-child(odd) {
     -webkit-transform: skewX(-25deg) translateX(-15px);
 }
+.contentt, section {
+    background: #00275A;
+}
+.panda {
+    background: #00275A;
+    padding: 5%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: 1px solid #5F9ACE;
+}
+#familyPic {
+    width: 100%;
+    height: auto;
+}
