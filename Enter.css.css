@@ -42,6 +42,7 @@ a {
     font-size: 15pt;
     border-radius: 4px;
     margin-top: 2%;
+    margin-bottom: 2%;
     border-left: 1px solid #D90429;
 }
 #bar:hover {
@@ -62,22 +63,32 @@ a:visited {
     text-shadow: 3px 8px 3px #2B2D42;
     line-height: 1.5em;
 }
-img {
+
+/*img {
     margin-top: 2%;
     position: absolute;
     top: 0px;
     left: 0px;
     margin-left: 80%;
-}
+}*/
+
 .spade {
+    top: 0px;
+    left: 0px;
     margin-left: 80.8%;
     margin-top: 2.6%;
     z-index: 20;
     max-height: 9%;
     width: auto;
     animation: mymove infinite 5s linear;
+    position: absolute;
 }
 .App-logo {
+    margin-top: 2%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-left: 80%;
     width: auto;
     z-index: 10;
     animation: spin infinite 50s linear;
@@ -111,16 +122,14 @@ img {
         transform: scale(1);
     }
 }
-.mySlides {
-    position: relative;
-}
-.w3-section {
-    margin-top: 8%;
-}
 
-/*#mine {
+/*.slidin {
+    width: 70%;
+    height: 50%;
     margin-left: 15%;
-    margin-top: 15%;
-    width: 65%;
-    height: 65%;
-}*/
+    margin-top: 5%;
+} */
+
+.port .row h2 {
+    margin-top: 40%;
+}
