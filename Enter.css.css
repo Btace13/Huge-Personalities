@@ -11,13 +11,10 @@
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(C:\Users\TheGamingComputer\Dropbox\CODE\The_Plays_Site\backvid.mp4) no-repeat;
+    background: url("http://i.imgur.com/EJADHVM.jpg") no-repeat;
     background-size: cover;
 }*/
 
-html body {
-    background-color: black;
-}
 #top {
     background-color: black;
     color: white;
@@ -58,7 +55,7 @@ a:visited {
     font-family: 'Aldrich', sans-serif;
     margin: 1% 0 0 1%;
     opacity: .9;
-    font-size: 6em;
+    font-size: 5em;
     color: #1682A2;
     text-shadow: 3px 8px 3px #00275A;
     line-height: 1.5em;
@@ -75,8 +72,8 @@ a:visited {
 .spade {
     top: 0px;
     left: 0px;
-    margin-left: 80.8%;
-    margin-top: 2.6%;
+    margin-left: 70.8%;
+    margin-top: 5.6%;
     z-index: 20;
     max-height: 9%;
     width: auto;
@@ -84,11 +81,11 @@ a:visited {
     position: absolute;
 }
 .App-logo {
-    margin-top: 2%;
+    margin-top: 5%;
     position: absolute;
     top: 0px;
     left: 0px;
-    margin-left: 80%;
+    margin-left: 70%;
     width: auto;
     z-index: 10;
     animation: spin infinite 50s linear;
@@ -144,10 +141,6 @@ a:visited {
 
 /* fast reset */
 
-body {
-    font-family: 'Merriweather Sans', Arial, sans-serif;
-    font-size: 12px;
-}
 a {
     text-decoration: none;
 }
@@ -157,12 +150,16 @@ a:hover {
 li {
     list-style: none;
 }
-.container {
+
+/*.container {
     margin: 0px 20% 0px 20%;
-}
-#head {
+}*/
+
+
+/*#head {
     margin-top: 20px;
-}
+}*/
+
 #menu .box {
     position: fixed;
     text-align: center;
@@ -374,13 +371,48 @@ li {
 }
 .panda {
     background: #00275A;
-    padding: 5%;
+    padding: 3%;
     display: flex;
     flex-flow: column;
     align-items: center;
-    border: 1px solid #5F9ACE;
+    border-bottom: 0;
+    border-right: 2px solid #1682A2;
+    border-left: 2px solid #1682A2;
+    border-top: 2px solid #1682A2;
 }
 #familyPic {
     width: 100%;
     height: auto;
+}
+.panda h2 {
+    font-size: 30pt;
+    color: #1682A2;
+    border-bottom: 1px solid white;
+}
+section {
+    text-align: center;
+}
+.askArcell {
+    margin-bottom: 5%;
+    font-size: 15pt;
+    padding: 1% 5% 5% 5%;
+    color: black;
+    text-align: center;
+    background-color: #1682A2;
+}
+.askArcell h2 {
+    padding-bottom: 2%;
+    font-size: 40pt;
+    border-bottom: 2px solid white;
+}
+.askArcell p {
+    font-weight: bold;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.imput {
+    background-color: #00275A;
+    border-radius: 10px;
+    padding: 5%;
+    border: 2px solid #5F9ACE;
 }
