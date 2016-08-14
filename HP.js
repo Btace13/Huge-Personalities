@@ -1,5 +1,4 @@
 
-
     var myString = "WELCOME ACES";
     var myArray = myString.split("");
     var loopTimer;
